@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+
+    <h3>Buat Akun Baru</h3>
+    <h4>Sign Up From</h4>
+    <br>
+    <form>
+        <label for="firstname">First name :</label><br>
+        <br>
+        <input type="text" id="firstname" name="firstname"><br>
+        <br>
+        <label for="lastname">Last name :</label><br>
+        <br>
+        <input type="text" id="lastname" name="lastname">
+      </form> 
+      <br>
+      <form>
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female</label>
+    </form> 
+    <br>
+    <p>Nationality</p>
+    <from action="/action_page.php">
+        <select id="nationality" name="nationality">
+            <option value="Indonesia">Indonesia</option>
+            <option value="America">America</option>
+            <option value="English">English</option>
+        </select>
+    </from>
+    <br>
+
+    <form>
+        <p>Language Spoken</p>
+        <input type="checkbox" id="language1" name="language1" value="Indonesia">
+        <label for="language1"> Bahasa Indonesia</label><br>
+        <input type="checkbox" id="language2" name="language2" value="English">
+        <label for="language2"> English </label><br>
+        <input type="checkbox" id="language3" name="language3" value="Other">
+        <label for="language3"> Other </label>
+      </form>
+
+    <p>Bio</p>
+    <textarea name="message" rows="10" cols="30">
+        </textarea> 
+        <br>
+        <button type="button" onclick="hasilnya"><a href="welcome.html">sign up</a></button>
+
+
+</body>
+</html>
